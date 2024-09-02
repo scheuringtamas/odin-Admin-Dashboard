@@ -5,6 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-bar">
+          <div class="search">
+            <p class="mdi mdi-magnify"></p>
+            <form class="input-search">
+              <input type="text" name="search" class="searchText" />
+            </form>
+          </div>
+          <div class="user-info">
+            <p class="mdi mdi-bell-ring-outline"></p>
+            <p class="mdi mdi-account-circle"></p>
+            <p>Morgan Oakley</p>
+          </div>
+        </div>
+        <div class="profile-section">
+          <div class="profile">
+            <p class="mdi mdi-account-circle profile-logo"></p>
+            <p class="hi">Hi there,</p>
+            <p class="profile-name">Morgan Oakley(@morgan)</p>
+          </div>
+          <div class="profile-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <p class="mdi mdi-view-dashboard sidebar-flex"></p>
+          <p class="dashboard">Dashboard</p>
+        </div>
+        <div class="navigation">
+          <div class="mdi mdi-home sidebar-flex">
+            <p>Home</p>
+          </div>
+          <div class="mdi mdi-card-account-details-outline sidebar-flex">
+            <p>Profile</p>
+          </div>
+          <div class="mdi mdi-message-reply sidebar-flex">
+            <p>Messages</p>
+          </div>
+          <div class="mdi mdi-history sidebar-flex">
+            <p>History</p>
+          </div>
+          <div class="mdi mdi-file-document-multiple-outline sidebar-flex">
+            <p>Tasks</p>
+          </div>
+          <div class="mdi mdi-account-group sidebar-flex">
+            <p>Communities</p>
+          </div>
+
+          <div class="branding">
+            <div class="mdi mdi-cog sidebar-flex">
+              <p>Settings</p>
+            </div>
+            <div class="mdi mdi-help-box sidebar-flex">
+              <p>Support</p>
+            </div>
+            <div class="mdi mdi-shield-check sidebar-flex">
+              <p>Privacy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project">project</div>
+        <div class="announcements">announcements</div>
+        <div class="trending">trending</div>
+      </div>
+    </div>
+  </body>
 </html>
