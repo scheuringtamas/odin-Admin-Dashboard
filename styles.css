@@ -6,14 +6,14 @@
 .container {
   display: grid;
   grid-template-columns: 0.8fr 4fr;
-  grid-template-rows: 0.5fr 2fr;
+  grid-template-rows: 150px 1fr;
+  height: 100vh;
   border: 1px solid black;
   font-family: "Roboto";
 }
 
 .sidebar {
   display: grid;
-  height: 100vh;
   grid-column: 1 / 2;
   grid-row: 1/3;
   grid-template-rows: 100px 1fr 2fr;
@@ -71,7 +71,6 @@
 .header {
   display: grid;
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
   background-color: white;
 }
 
@@ -162,15 +161,97 @@
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 1px solid black;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 0.1fr auto;
   background-color: #e6e6e6;
 }
 
-.announcements {
+.project {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 1000px;
+  gap: 30px;
+  margin: 20px 40px;
+  grid-row: 2 / 3;
+}
+
+.yourProject {
+  font-size: 20px;
+  font-weight: bold;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border-left: 8px solid orange;
+  padding: 20px 20px;
+  max-height: 200px;
+  display: grid;
+  grid-template-rows: 20px 60px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.side-section {
+  display: grid;
+  grid-template-rows: 0.5fr 20px auto;
+  gap: 20px;
+  margin: 20px;
+  grid-row: 2 / 3;
+  width: 250px;
+}
+
+.announcements-header {
+  font-size: 20px;
+  font-weight: bold;
   grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+}
+
+.announcement-section {
+  padding: 10px;
+  background-color: white;
+}
+
+.announcement-title {
+  font-weight: bold;
+}
+
+.trending-header {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .trending {
-  grid-column: 2 / 3;
+  padding: 20px;
+  background-color: white;
+}
+
+.trending-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  font-size: 17px;
 }
