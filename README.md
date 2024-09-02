@@ -41,3 +41,7 @@ Intermediate HTML and CSS Course
 **Step 6: Section feedback**
 
 > 1.  Before you move on, we would love it if you could submit your feedback on the Intermediate HTML and CSS course.
+
+# Screenshots
+
+<img src="https://github.com/scheuringtamas/odin-Admin-Dashboard/blob/main/adminDashboard.png"/>
