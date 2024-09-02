@@ -247,6 +247,7 @@
 .trending {
   padding: 20px;
   background-color: white;
+  height: 200px;
 }
 
 .trending-section {
